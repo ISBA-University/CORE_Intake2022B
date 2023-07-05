@@ -1,5 +1,5 @@
 ---
-title: "VO Einführung in die VWL"
+title: "VO Volkswirtschaftslehre"
 subtitle: "Intake 2022 B"
 author: "Prof. Dr. Jörg Schoder"
 institute: "ISBA" 
@@ -49,13 +49,14 @@ library(latex2exp)
 library(fontawesome)
 ```
 
+
 # Volkswirtschaftslehre
 
+## Intake 2022B
 
-## CORE - The Economy: Unit 3
+### CORE - The Economy: Unit 3 (Rational Choice Modell)
+ 
 
-### Sommersemester 2023 - Intake 2022B
-
 <br>
 <br>
 <br>
@@ -63,9 +64,9 @@ library(fontawesome)
 <br>
 <br>
 <br>
+### Sommersemester 2023 
 <br>
 ### Prof. Dr. Jörg Schoder
-<br>
 .mycontacts[
 `r fa('github')` @ISBA-University
 `r fa('linkedin')` @jfschoder
