@@ -45,6 +45,7 @@ xaringanExtra::use_freezeframe(trigger = "hover")
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+library(tidyverse)
 library(latex2exp)
 library(fontawesome)
 ```
@@ -403,8 +404,9 @@ class: left
 
 .pull-left[
 ```{r, echo=FALSE}
-knitr::include_graphics("../images/unit02/Keynes_(wiwo).jpg")
+knitr::include_graphics("../images/unit02/Keynes_(wiwo).png")
 ```
+
 .quelle[Bildquelle: [wiwo.de](https://www.wiwo.de/images/john-maynard-keynes-der-brite-forderte-eine-aktive-rolle-des-staates-in-wirtschaftskrisen/4881664/1-format7001.jpg)]
 ]
 .pull-right[
@@ -637,6 +639,8 @@ knitr::include_url("../images/unit02/Nobel_2019.PNG",height = "480px")
 ```{r, echo=FALSE,out.width = "100%"}
 knitr::include_url("https://www.tagesschau.de/wirtschaft/nobelpreis-wirtschaft-131.html",height = "480px")
 ```
+
+.quellePanURL[Quelle: [tagesschau.de](https://www.tagesschau.de/wirtschaft/nobelpreis-wirtschaft-131.html)]
 ]
 .panel[.panel-name[Experimente]
 * **Labor-Experimente**
@@ -1073,6 +1077,8 @@ class: left
 knitr::include_url("https://www.tagesschau.de/wirtschaft/technologie/interview-daum-101.html",height = "520px")
 ```
 
+.quelle[Quelle: [tagesschau.de.](https://www.tagesschau.de/wirtschaft/technologie/interview-daum-101.html)]
+
 ???
 
 CEO von DaimlerTrucks:Es braucht drei Voraussetzungen, damit das erfolgreich wird
@@ -1220,12 +1226,19 @@ Club of Rome
 
 
 ---
-name: Tomaten
+name: Podcast
 class: left
 
-# Technologischer Fortschritt in der Landwirtschaft
+# Grünes Wachstum? 
 
-<iframe width="990" height="500" src="https://www.srf.ch/play/embed?urn=urn:srf:audio:8506097b-4e7d-4f39-b383-78b1411ca626&subdivisions=false" allowfullscreen allow="geolocation *; autoplay; encrypted-media"></iframe>
+## [Podcast](https://cepr.org/multimedia/philippe-aghion-green-growth-possible) mit Philippe Aghion
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("../images/unit02/Podcast_Aghion_(voxtalks_2023).png")
+```
+
+.quelle[Bildquelle: [cepr.org](https://cepr.org/multimedia/philippe-aghion-green-growth-possible)]
+
 
 ???
 

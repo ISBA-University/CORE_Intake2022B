@@ -1877,6 +1877,16 @@ same. Hence, the payoff matrix may look like Figure 4.18b - 2 Nash-Gleichgewicht
 * Globale Sanktionsmöglichkeiten?
 
 
+---
+name: Development
+class: left
+
+# Ungleichheit und Klimapolitik
+
+<iframe src="https://ourworldindata.org/grapher/cumulative-co-emissions?country=DEU~CHN~IND~GBR~USA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+
+
 
 ---
 name: Final
