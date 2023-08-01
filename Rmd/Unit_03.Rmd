@@ -45,6 +45,7 @@ xaringanExtra::use_freezeframe(trigger = "hover")
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+library(tidyverse)
 library(latex2exp)
 library(fontawesome)
 ```
@@ -89,7 +90,7 @@ class: left
 
 .pull-left[
 ```{r, echo=FALSE}
-knitr::include_graphics("../images/unit02/Keynes_(wiwo).jpg")
+knitr::include_graphics("../images/unit02/Keynes_(wiwo).png")
 ```
 ]
 
