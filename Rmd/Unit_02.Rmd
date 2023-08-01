@@ -1073,15 +1073,26 @@ class: left
 
 # Invention vs. Innovation: ein aktuelles Beispiel
 
+.pull-left[
+**tagesschau.de**: [..] Wieso dauert es so lange - der Umstieg auf Elektroantrieb oder Wasserstoff?
+
+**Daum**: Es braucht **drei Voraussetzungen**, damit das erfolgreich wird: [..] **Und das Dritte ist natürlich die Kostenparität**: Keiner fährt einen Lkw zur Gaudi, sondern möchte Geld damit verdienen. Und dann muss eben der elektrische, der Wasserstoff-Lkw im Betrieb günstiger sein - inklusive des Kaufpreises - als der konventionelle. Und das ist noch nicht so weit. Alle, die das behaupten, sind falsch. Es geht nur mit heftigen Subventionen, und da kann ich keine Tausende subventionieren. Das heißt, wir müssen die Kosten des Lkws Wunder bringen. Und es muss am Ende natürlich auch letztlich die CO2-Bepreisung der Lkw-Fahrten nach oben gehen.
+
+]
+
+.pull-right[
 ```{r, echo=FALSE,out.width = "100%"}
-knitr::include_url("https://www.tagesschau.de/wirtschaft/technologie/interview-daum-101.html",height = "520px")
+knitr::include_graphics("../images/unit02/DaimlerTrucks_(tagesschau_20220414).PNG")
 ```
 
+]
 .quelle[Quelle: [tagesschau.de.](https://www.tagesschau.de/wirtschaft/technologie/interview-daum-101.html)]
+
+
 
 ???
 
-CEO von DaimlerTrucks:Es braucht drei Voraussetzungen, damit das erfolgreich wird
+CEO von DaimlerTrucks zu Wasserstofftrucks: Es braucht **drei Voraussetzungen**, damit das erfolgreich wird
   * ein gutes Angebot von der Industrie
   * eine Infrastruktur (Ladesäulen bzw. Wasserstofferzeugung)
   * "und das dritte ist natürlich die Kostenparität"
