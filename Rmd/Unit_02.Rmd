@@ -637,10 +637,10 @@ knitr::include_url("../images/unit02/Nobel_2019.PNG",height = "480px")
 
 .panel[.panel-name["Nobelpreis" 2021]
 ```{r, echo=FALSE,out.width = "100%"}
-knitr::include_url("https://www.tagesschau.de/wirtschaft/nobelpreis-wirtschaft-131.html",height = "480px")
+knitr::include_url("https://www.deutschlandfunk.de/wirtschafts-nobelpreis-2021-arbeiten-in-direktem-bezug-zum-100.html",height = "480px")
 ```
 
-.quellePanURL[Quelle: [tagesschau.de](https://www.tagesschau.de/wirtschaft/nobelpreis-wirtschaft-131.html)]
+.quellePanURL[Quelle: [deutschlandfunkt.de](https://www.deutschlandfunk.de/wirtschafts-nobelpreis-2021-arbeiten-in-direktem-bezug-zum-100.html)]
 ]
 .panel[.panel-name[Experimente]
 * **Labor-Experimente**

@@ -472,7 +472,7 @@ Zur Beantwortung steigen wir in die mikroökonomische Analyse ein. Wir betrachte
 name: Methodologie
 class: left
 
-# Erkenntnistheoretischer Hintergrund
+# Wissenschaftstheoretischer Hintergrund
 
 .panelset[
 .panel[.panel-name[Methodologischer Individualismus]
@@ -520,6 +520,7 @@ knitr::include_url("../images/unit03/robot_(pixabay)_small.png",height = "405px"
 
 ???
 
+* [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/methodological-individualism/)
 * Panel 1: Methodologischer Individualismus
     * Beispiel Unternehmung: Es gibt keine Ziele oder Strategien des Unternehmens sondern nur individuelle Ziele und Strategien der Menschen im Unternehmen.
     * Obs! Methodologischer Kollektivismus: Das Ganze ist mehr als die Summe der Einzelteile (Holismus).
