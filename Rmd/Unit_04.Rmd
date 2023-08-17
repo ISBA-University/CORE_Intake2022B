@@ -82,7 +82,6 @@ layout: true
 <div style="position: absolute;left:400px;bottom:10px;color:ISBAblue;font-size:9px">`r r2symbols::sym('copyright')``r rmarkdown::metadata$author`</div>
   
 
-
 ---
 name: Motivation
 class: left
@@ -116,42 +115,38 @@ Adam Smith war nicht der Erfinder der Metapher von der unsichtbaren Hand; sie wa
 
 
 ---
-name: Flug
+name: Motiv
 class: left
 
-# Corona-Müdigkeit, Reiselust - und Klimaschutz?
+# Aktuelle Aktion von Penny-Markt
 
 .panelset[
-.panel[.panel-name[Reiselust!]
-```{r ,echo=FALSE, message=FALSE}
-knitr::include_url('https://www.hs-kempten.de/fakultaet-tourismus-management/aktuelles/termine/details/trotz-pandemie-die-reiselust-waechst-wieder-606',height = '480px')
+.panel[.panel-name[Aktion]
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics('../images/unit04/Penny_Aug2023.png')
 ```
 ]
-.panel[.panel-name[Flugreisen?]
-```{r, echo=FALSE,fig.align='center', out.width = '100%'}
-knitr::include_url('https://www.dw.com/de/gr%C3%BCnen-chefin-baerbock-will-kurzstreckenfl%C3%BCge-abschaffen/a-57548037',height = '480px')
+.panel[.panel-name[Wahre Kosten]
+```{r,echo=FALSE,out.width='80%'}
+knitr::include_graphics('../images/unit04/Penny0_Aug2023.png')
 ```
 ]
-.panel[.panel-name[und sonst?]
-```{r ,echo=FALSE, message=FALSE}
-knitr::include_url('https://taz.de/Massnahmen-gegen-die-Klimakrise/!5762016/',height = '480px')
+.panel[.panel-name[Beispiel]
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics('../images/unit04/Penny1_Aug2023.png')
+```
+]
+.panel[.panel-name[Spende]
+```{r,echo=FALSE,out.width='100%'}
+knitr::include_graphics('../images/unit04/Penny2_Aug2023.png')
 ```
 ]
 ]
 
 
 ???
-* Klimawandel als Beispiel dafür, dass die Idee der unsichtbaren Hand nicht funktioniert.
-* Seit der Industrialisierung hat die persönliche Freiheit in weiten Teilen zumindest der westlichen Welt dazu geführt, dass wir unsere Natur stark geschädigt haben.
 
-* Beispiel: Regenwald Brasilien. Eigeninteressierte Rinderzüchter holzen ab, um Fleisch für den Weltmarkt zu produzieren? Wir freuen uns über günstiges Fleisch (außer wir sind veganer), aber ist das sozial wirklich erwünscht?
-
-*Beispiel: Flugreisen
-  * Wann sind Sie das letzte Mal geflogen? Verschiedene Wissenschaftler sagen, dass nur  5 bis 10 Prozent der Erdbevölkerung im Jahr Flüge antreten. [dw.com](https://www.dw.com/de/der-klimawandel-und-das-fliegen/a-42094220)
-  * Vielen Schätzungen zufolge liegt der Anteil der Luftfahrt an den globalen $CO_2$-Emissionen bei etwas mehr als 2 Prozent. Auch die Branche selbst erkennt diese Zahl weitgehend an.
-  * Jeder entscheidet für sich? Was berücksichtigt ihr bei Eurer Reiseentscheidung?
-
-  * **Verbieten**? oder unattraktiv machen durch bessere Zugverbindungen?
+* **Verbieten**? oder unattraktiv machen durch bessere Zugverbindungen?
 
 * Verbote:
   * Grundproblem: Aktivitäten sind ja auch nützlich. Helikopter für Notarzt
@@ -186,6 +181,11 @@ Podcast:
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1x1ncXopC1yDfaLfLqX0cb?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ]
 
+
+
+
+
+
 ---
 name: Klima
 class: left
@@ -214,14 +214,23 @@ knitr::include_graphics("../images/unit04/Klimaschutz_in_Zahlen_(BMWK_2023).png"
 
 
 
+
+
+
+
+
+
+
+
 ---
 name: KlimaOekonomie
 class: left
 
 # Klimaschutz nach dem ökonomischen Prinzip?
 
-
-<img src="https://research.noaa.gov/Portals/0/EasyGalleryImages/1/843/2020-Global-CH4.png" height="350px" width="800px" />
+```{r,echo=FALSE,fig.align='center',out.width='50%'}
+knitr::include_graphics('../images/unit04/ch4_trend_gl_(noaa-gov)_20230817.png')
+```
 
 "Cutting methane is the strongest lever we have to slow climate change over the next 25 years and complements necessary efforts to reduce carbon dioxide. The benefits to society, economies, and the environment are numerous and far outweigh the cost. We need international cooperation to urgently reduce methane emissions as much as possible this decade."
 
@@ -668,6 +677,34 @@ knitr::include_url("https://dev-ii-seminar.readthedocs.io/en/latest/_images/note
 * Generationengerechtigkeit
 
 * TODO Verhaltensökonomik (Thaler, Misbehaving Beispiel zu Coase)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 name: Teil1
@@ -1599,6 +1636,21 @@ class: left
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 name: Markteinritt
 class: left
@@ -1940,3 +1992,4 @@ Nächstes Mal (Unit 5)
 * The role of institutions in social allocations
 * How to evaluate social outcomes: efficiency and fairness
 * How bargaining power affects the distribution of surplus
+
