@@ -87,9 +87,15 @@ class: left
 
 # Arbitrage und die Bedeutung von Transaktionskosten
 
-```{r, echo=FALSE,fig.align='center',out.width='80%'}
+```{r, echo=FALSE,fig.align='center',out.width='70%'}
 knitr::include_graphics('../images/unit06/Profite_LNG_(BerlinerZeitung).png')
 ```
+
+.quelle[Quelle: [Berliner Zeitung (17.08.2022).](https://www.berliner-zeitung.de/wirtschaft-verantwortung/sagenhafte-profite-bei-lng-es-ist-eine-unglaubliche-arbitrage-li.257539)]
+
+???
+
+Transportkosten als eine (intuitive Form) von Transaktionskosten
 
 
 ---
