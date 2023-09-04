@@ -45,6 +45,7 @@ xaringanExtra::use_freezeframe(trigger = "hover")
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+library(tidyverse)
 library(latex2exp)
 library(fontawesome)
 ```

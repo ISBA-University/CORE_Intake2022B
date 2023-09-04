@@ -45,6 +45,8 @@ xaringanExtra::use_freezeframe(trigger = "hover")
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(kableExtra)
 library(latex2exp)
 library(fontawesome)
 ```
@@ -70,26 +72,8 @@ library(fontawesome)
 `r fa('github')` @ISBA-University
 `r fa('linkedin')` @jfschoder
 ]
-# Volkswirtschaftslehre
 
 
-
-### Sommersemester 2023 - Intake 2022B
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-### Prof. Dr. Jörg Schoder
-<br>
-.mycontacts[
-`r fa('github')` @ISBA-University
-`r fa('linkedin')` @jfschoder
-]
 
 ---
 layout: true
@@ -565,6 +549,58 @@ $$\mbox{AC}(x)=\frac{C(x)}{x}=\frac{C_f}{x}+\frac{C_v(x)}{x}$$.
 Kosten können auch in Abhängigkeit von der Ausbringungsmenge
 (x) gemessen werden. Verbindung: Technologie!
 
+
+
+
+---
+name: TechKost
+class: left
+
+# Beispiel: Technologie und Kurzfristige Kosten
+
+
+.panelset[
+.panel[.panel-name[Beispiel]
+.blockquote[
+Ein Unternehmen produziert mit dem fixen Faktor Kapital (Fixkosten:
+30) und dem variablen Faktor Arbeit (Lohnsatz: 10 Euro). 
+]
+Zwischen Input und Output bestehe die folgende (technologische) Beziehung:
+
+L |Q |C_L|C_f|C|AC|GP_L|MC
+--|--|---|---|-|--|----|--
+0 |0 |  |  |  |  |  |
+1 |60 |  |  |  |  |  |
+2 |110|  |  |  |  |  |
+3 |150|  |  |  |  |  |
+4 |180|  |  |  |  |  |
+5 |200|  |  |  |  |  |
+6<img width=120/>|210<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>
+
+]
+.panel[.panel-name[Kosten]
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+Q<-c(0,60,110,150,180,200,210)
+L<-c(0:6)
+cost_ex<-data.frame(Q,L)
+cost_ex<-cost_ex %>%
+  mutate(C_L=L*10,C_f=30,TC=C_L+C_f)
+GP_L<-cost_ex$Q[2:7]-cost_ex$Q[1:6]
+GP_L<-c(NA,GP_L)
+MC<-round((cost_ex$TC[2:7]-cost_ex$TC[1:6])/(cost_ex$Q[2:7]-cost_ex$Q[1:6]),2)
+MC<-c(NA,MC)
+AC<-round(cost_ex$TC/cost_ex$Q,2)
+cost_ex<-data.frame(cost_ex,AC,GP_L,MC)
+cost_ex %>%
+  kbl() %>%
+  kable_material(c("striped", "hover"))
+```
+]
+]
+
+
+
+
 ---
 name: 
 class: left
@@ -615,53 +651,6 @@ knitr::include_url('https://www.core-econ.org/the-economy/book/images/web/figure
 * MC: Steigung der TC
 * Obs! Grenzkosten schneiden die AC in deren Minimum!
 
-
-
----
-name: TechKost
-class: left
-
-# Beispiel: Technologie und Kurzfristige Kosten
-
-
-.panelset[
-.panel[.panel-name[Beispiel]
-.blockquote[
-Ein Unternehmen produziert mit dem fixen Faktor Kapital (Fixkosten:
-30) und dem variablen Faktor Arbeit (Lohnsatz: 10 Euro). 
-]
-Zwischen Input und Output bestehe die folgende (technologische) Beziehung:
-
-L |Q |C_L|C_f|C|AC|GP_L|MC
---|--|---|---|-|--|----|--
-0 |0 |  |  |  |  |  |
-1 |60 |  |  |  |  |  |
-2 |110|  |  |  |  |  |
-3 |150|  |  |  |  |  |
-4 |180|  |  |  |  |  |
-5 |200|  |  |  |  |  |
-6<img width=120/>|210<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>|<img width=120/>
-
-]
-.panel[.panel-name[Kosten]
-```{r,echo=FALSE,message=FALSE,warning=FALSE}
-Q<-c(0,60,110,150,180,200,210)
-L<-c(0:6)
-cost_ex<-data.frame(Q,L)
-cost_ex<-cost_ex %>%
-  mutate(C_L=L*10,C_f=30,TC=C_L+C_f)
-GP_L<-cost_ex$Q[2:7]-cost_ex$Q[1:6]
-GP_L<-c(NA,GP_L)
-MC<-round((cost_ex$TC[2:7]-cost_ex$TC[1:6])/(cost_ex$Q[2:7]-cost_ex$Q[1:6]),2)
-MC<-c(NA,MC)
-AC<-round(cost_ex$TC/cost_ex$Q,2)
-cost_ex<-data.frame(cost_ex,AC,GP_L,MC)
-cost_ex %>%
-  kbl() %>%
-  kable_material(c("striped", "hover"))
-```
-]
-]
 
 
 
